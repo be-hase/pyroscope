@@ -22,7 +22,7 @@ services:
       context: .
 
   pyroscope:
-    image: pyroscope/pyroscope:latest
+    image: rperry2174/pyroscope-java-tags:latest
     environment:
       - PYROSCOPE_LOG_LEVEL=debug
     ports:
